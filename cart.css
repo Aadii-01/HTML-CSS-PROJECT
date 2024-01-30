@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Engagement&display=swap');
+
+/* 
+bg-#162836
+text-#CF7650
+btn-#D5A187
+*/
+
+/* navbar */
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-weight: 600;
+}
+
+body {
+    margin: 0;
+    font-family: "genos", sans-serif;
+    background-color: #162836;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 15px #162836;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    text-decoration: none;
+    width: 30vh;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    font-family: "Genos", sans-serif;
+}
+
+.navbar a:hover {
+    text-shadow: 0px 0px 10px #D5A187;
+    color: #D5A187;
+}
+
+.navbar a.active {
+    text-shadow: 0px 0px 10px #D5A187;
+    color: #CF7650;
+}
+
+.cart-button {
+    color: #D5A187;
+    background-color: rgba(225, 225, 225, 0.02);
+    border: none;
+    border-radius: 50px;
+    padding: 9px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cart-button:hover {
+    color: #CF7650;
+    background-color: rgba(225, 225, 225, 0);
+    border:1px #CF7650;
+    box-shadow: 0px 0px 10px #CF7650;
+    border-radius: 50px;
+    padding: 9px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+
+/* upper boxesss */
+
+.numark-party:hover,
+.pioneer-dj:hover,
+.vm-50:hover{
+  cursor:zoom-in;
+  transform: scale(2);
+  margin-left:0px;
+  transition: width 1s, height 1s, transform 0.4s;
+  border:0.5px thin black;
+}
+
+.body{
+  background-color: #162836 ;
+  padding-bottom:500px;
+}
+.card1-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr ;
+  row-gap: 20px;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+.up-big-box{
+  margin-top: 10px;
+  display:grid;
+  grid-template-columns: 2fr 1.2fr;
+  column-gap:80px;
+}
+.card1 {
+  width: 900px;
+  background-color:#D5A187 ;
+  border-radius: 0 75px 0 0px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  column-gap: 30px;
+  font-size: small;
+  border:3px solid black;
+  height:120px;
+  display:grid;
+  grid-template-columns: 0.3fr 0.75fr 0.3fr;
+  row-gap: 50px;
+  width: 700px;
+}
+.card1-left {
+  background-color: #CF7650;
+  width:150px;
+  text-align: center;
+}
+
+.card1-end {
+  background-color: #ecf0f1;
+  padding:1px;
+  opacity:0.5;
+  height:114px;
+  text-align: center;
+  border-radius:0 75px 0 0;
+}
+.numbox{
+background-color: rgb(4, 0, 0);
+color:white;
+width:40px;
+margin-top:5px;
+}
+.btnm{
+margin-right:20px;
+border:none;
+cursor:pointer;
+}
+.btnp{
+margin-left:20px;
+border:none;
+cursor:pointer;
+}
+
+
+
+/* totalbox */
+
+.totalbox{
+  background-color: #D5A187;
+  border: 4px solid black;
+  height:340px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+
+}
+.proceed-to-pay-btn{
+  color: whitesmoke;
+  background-color: #162836;
+  border: none;
+  border-radius: 50px;
+  margin-left:45px;
+  margin-top:10px;
+  padding: 9px 120px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  align-items: center;
+}
+.proceed-to-pay-btn:hover{
+    color: #CF7650;
+    background-color: #162836;
+    border:1px #CF7650;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 50px;
+    padding: 9px 120px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.cart-total{
+  padding:15px;
+  font-size:50px;
+  background-color: #CF7650;
+}
+.cart-3x{
+  font-size:20px;
+  background-color: white;
+}
+.cart-subtotal{
+  margin-left:5px;
+  font-size:25px;
+  word-spacing: 285px;
+}
+.cart-del{
+  margin-left:5px;
+  margin-top:10px;
+  font-size:25px;
+  word-spacing: 280px;
+}
+.cart--{
+  text-align:center; 
+  color:white; 
+  font-size:20px;
+}
+.cart-total-money{
+  margin-bottom:5px;
+  word-spacing:315px;
+  font-size:28px;
+  background-color: #CF7650;
+}
+
+
+/* bottom boxesss */
+
+
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  cursor:pointer;
+}
+
+
+.card {
+  width: 275px;
+  background-color:#D5A187 ;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-left {
+  background-color: #CF7650;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  font-size: small;
+}
+
+
+.card-footer {
+  background-color: #ecf0f1;
+  padding:1px;
+  opacity:0.5;
+  text-align: center;
+}
+.son:hover{
+  transform: scale(1.1);
+  transition: width 1s, height 0.5s, transform 0.4s;
+}
+.card-body:hover,
+.rel:hover,
+.sos:hover,
+.pio:hover{
+  transition: width 1s, height 1s, transform 1s;
+  transform: perspective(1800px) rotateY(-15deg) rotateX(10deg) scale(1.2); 
+}

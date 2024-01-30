@@ -1,0 +1,18 @@
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .promohead{
+        font-size: 10px;
+        font-weight: 100;
+    }
+}
