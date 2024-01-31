@@ -114,7 +114,7 @@ header {
   column-gap:80px;
 }
 .card1 {
-  width: 900px;
+  width: 700px;
   background-color:#D5A187 ;
   border-radius: 0 75px 0 0px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -125,7 +125,7 @@ header {
   display:grid;
   grid-template-columns: 0.3fr 0.75fr 0.3fr;
   row-gap: 50px;
-  width: 700px;
+  box-shadow:10px 10px 10px black;
 }
 .card1-left {
   background-color: #CF7650;
@@ -169,7 +169,7 @@ cursor:pointer;
   margin-top: 30px;
   margin-bottom: 30px;
   margin-right: 30px;
-
+  box-shadow:10px 10px 10px black;
 }
 .proceed-to-pay-btn{
   color: whitesmoke;
@@ -183,17 +183,19 @@ cursor:pointer;
   cursor: pointer;
   transition: all 0.3s ease 0s;
   align-items: center;
+  box-shadow:5px 5px 5px black;
 }
 .proceed-to-pay-btn:hover{
     color: #CF7650;
     background-color: #162836;
     border:1px #CF7650;
-    box-shadow: 0px 0px 10px black;
+    box-shadow: 7px 7px 7px black;
     border-radius: 50px;
     padding: 9px 120px;
     font-size: 16px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    
 }
 .cart-total{
   padding:15px;
@@ -229,14 +231,24 @@ cursor:pointer;
 
 
 /* bottom boxesss */
+.music{
+  width:30px;
+}
+.ymal{
+  width:365px;
+  margin-left:80px;
+  margin-bottom:30px;
+  font-size:35px;
+  color:#fff;
 
-
+}
 .card-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 40px;
   max-width: 1200px;
   margin: 20px auto;
+  margin-bottom:100px
 }
 
 .card:hover {
@@ -252,6 +264,7 @@ cursor:pointer;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   transition: transform 0.3s ease-in-out;
+  box-shadow:10px 10px 10px black;
 }
 
 .card-left {
@@ -279,4 +292,76 @@ cursor:pointer;
 .pio:hover{
   transition: width 1s, height 1s, transform 1s;
   transform: perspective(1800px) rotateY(-15deg) rotateX(10deg) scale(1.2); 
+}
+
+/* footer */
+footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 50px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid #CF7650;
+  margin-top: 50px;
+}
+
+.footerlogo{
+  width: 50vh;
+}
+
+.webinfo{
+  width: 50vh;
+  text-align: center;
+}
+
+.column ul li{
+  padding: 15px;
+}
+
+.column a {
+  text-decoration: none;
+  color: #ecf0f1;
+  transition: color 0.3s ease;
+}
+
+.column a:hover {
+  color: #3498db;
+}
+
+.feedback {
+  text-align: right;
+}
+
+.feedback h1{
+  font-size: 45px;
+  font-family: "Gemunu",sans-serif;
+  font-weight: 200;
+}
+
+.feedback p{
+  font-size: 30px;
+  font-family: "Engagement",serif;
+  font-weight: 100;
+}
+.feedback input[type="email"] {
+  padding: 8px;
+  width: 55vh;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.feedback button {
+  padding: 8px 15px;
+  background-color: #3498db;
+  color: #ecf0f1;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feedback button:hover {
+  background-color: #2980b9;
 }
