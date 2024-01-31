@@ -95,7 +95,6 @@ header {
   transition: width 1s, height 1s, transform 0.4s;
   border:0.5px thin black;
 }
-
 .body{
   background-color: #162836 ;
 }
